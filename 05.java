@@ -39,7 +39,7 @@ class Student {
 
     public static void main(String[] args) {
         try {
-            // 110 is invalid and should trigger an exception
+            
             Student s = new Student("John", 75, 15, 90);
             System.out.printf("Student: %s\nAverage Score: %.2f\n", s.getName(), s.calculateAverage());
         } catch (IllegalArgumentException e) {
